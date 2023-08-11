@@ -45,7 +45,7 @@ def get_info(req: https_fn.Request) -> https_fn.Response:
         
         
         if is_full_onchain(tokenURI):
-            type = 1 # UnKnown
+            type = 1 # FullOnChain
         else:
             print(f"{short_uri}")
             type = 2 # OffChain
